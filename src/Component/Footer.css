@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+/* .Main-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../icons/singer.jpg");
+    background-position: center; /* Center the image */
+    /* background-repeat: no-repeat; /* Do not repeat the image */
+    /* background-size: cover; 
+}  */
+.Heading {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    color: #fff;
+    padding: 5vh;
+}
+input{
+  border: none;
+  outline: none;
+  border-bottom:1px solid #dedede;
+  background: none;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+::placeholder {
+    color: #C6CFD1;
+    word-wrap: break-word;
+}
+*{
+    box-sizing: border-box;
+}
+.RegisForm {
+    display: flex;
+    width: 70%;
+    height: 430px;
+    margin: -25vh auto 100px;
+    background: #fff;
+}
+.Headers{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    font-size: 4vh;
+    color: #C7B7BA;
+}
+.heading {
+   color: #fff; 
+}
+.Sign-in{
+    width: 60%;
+    background: #fff;
+    height: 100%;
+}
+.info {
+    width: 40%;
+    height: 100%;
+    background: #253239;
+}
+.Content {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 30px;
+    color: #616B70;
+}
+.Content2 {
+    display: flex;
+    padding-top: 30px;
+    padding-left: 30px;
+    color: #616B70;
+}
+.main-footer {
+    width: 100%;
+    position: relative;
+    bottom: 0;
+    background: #253139;
+}
+.col{
+    color: #fff;
+    text-align: left;
+}
+.page-container {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to right,rgb(210,219,223),rgb(253,253,253));
+  }
+  .content-wrap {
+    flex: 1;
+  }
+.col h4{
+    margin-top: 5vh;
+    color: #A76164;
+}
+.col2{
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: #161C1F;
+    color: #3D474D;
+}
+/* @media only screen and (max-width: 600px) {
+    .RegisForm{
+        width: min-content;
+    }
+    .main-footer{
+        width: fit-content;
+    }
+
+}
+/* @media only screen and (max-width: 1400px) {
+    .RegisForm{
+       height: 500px;
+    }
+    .main-footer{
+        width: fit-content;
+    }
+
+} */ 

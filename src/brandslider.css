@@ -1,0 +1,60 @@
+.brands-wrap {
+	 padding-top: 10%;
+	 max-width: 960px;
+	 margin: 0 auto;
+}
+ .carousel {
+	 background: transparent;
+}
+ .gallery-cell {
+	 width: 100%;
+	/* half-width */
+	 height: auto;
+	 padding: 10 10px;
+	 text-align: center;
+	 top: 50%;
+	 transform: translateY(-50%);
+}
+ @media (min-width: 548px) {
+	 .gallery-cell {
+		 width: 30%;
+	}
+}
+ .gallery-cell.is-selected img {
+	 transform: scale(1);
+	 -webkit-filter: grayscale(0) blur(0);
+	 filter: grayscale(0) blur(0);
+}
+ .gallery-cell img {
+	 transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+	/* easeInOutBack */
+	 max-width: 100px;
+	 display: inline-block;
+	 transform: scale(0.7);
+	 -webkit-filter: grayscale(100%) blur(2px);
+	 filter: grayscale(100%) blur(2px);
+}
+ .flickity-prev-next-button.previous {
+	 left: -40px;
+}
+ .flickity-prev-next-button.next {
+	 right: -40px;
+}
+ .brand-carousel {
+	 margin: 0 30px;
+	/* space for prev/next buttons */
+}
+ .flickity-prev-next-button .arrow {
+	 fill: #fd4d15;
+	 box-shadow: 0 0 5px orange;
+}
+ .flickity-prev-next-button.no-svg {
+	 color: #fd4d15;
+}
+ .flickity-prev-next-button {
+	 background: transparent;
+}
+ .flickity-prev-next-button:hover {
+	 background: transparent;
+}
+ 
