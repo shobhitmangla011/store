@@ -18,6 +18,8 @@ import wood from "./wood.png";
 import aboutus from "./aboutus.png";
 import bid from "./bid.png";
 import grow from "./grow.png";
+import RightArrow from "./arrow2.png";
+import LeftArrow from "./arrow2.png";
 import India from "./India.png";
 import Payment from "./Payment.png";
 import Register from "./Register.png";
@@ -38,6 +40,8 @@ export  {
     Connect3,
     Group4,
     Group1,
+    LeftArrow,
+    RightArrow,
     Group2,
     Group5,
     Group6,

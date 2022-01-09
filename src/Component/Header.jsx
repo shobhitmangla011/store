@@ -4,9 +4,11 @@ import "./Header.css";
 const Header = () => {
     return (
         <div id="header">
-            <nav className="navbar navbar-expand-lg sticky-top ">
+            <nav className="navbar navbar-expand-lg sticky-top " >
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">INFA STORE</a>
+                    <div style={{width: "300px",height: "116px",backgroundColor: "#fd5d14",display: "flex"}}> 
+                        <div className="navbar-brand" href="#">INFA STORE</div>
+                    </div>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                     </button>
@@ -28,13 +30,15 @@ const Header = () => {
                             <li className="nav-item4">
                             <a className="nav-link" href="#">INFRABID</a>
                             </li>
+                         
                         </ul>
                         <div className="effect"></div>
+                        <div className="Rectangle-33">
+                        <div className="btn11"><span className="text1">GET QUOTATION</span></div>
                     </div>
                     </div>
-                    <div className="Rectangle-33">
-                    <button className="btn11"><span class="text1">Hover me!</span></button>
                     </div>
+                    
                 </div>
             </nav>
         </div>

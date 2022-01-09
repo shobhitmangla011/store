@@ -21,14 +21,6 @@ const Footer = () => {
                    <li>Infra Bid</li>
                </ul>
             </div>
-
-            <div className="col">
-               <h4>NEWSLETTER</h4>
-               <ul className="list-unstyled">
-                   <li>email adress</li>
-                   <li>subscribe</li>
-               </ul>
-            </div>
             <div className="col">
                 <ul className="list-unstyled">
                     <li>

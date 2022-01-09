@@ -1,18 +1,11 @@
+import React from 'react';
+// import {BrowserRouter as Router, Route} from "react-router-dom"
 import './App.css';
-import Footer from './Component/Footer';
-import Header from './Component/Header';
-import FrontPage from './FrontPage';
+import Homepage from './Homepage';
 
 function App() {
-  return (
-      <div className="page-container">
-        <div className="content-wrap">
-          <Header />
-          <FrontPage />
-          <Footer />
-        </div>
-      </div>
-    
+  return ( 
+  <Homepage />
   );
 }
 
